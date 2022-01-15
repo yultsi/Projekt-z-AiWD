@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+import os
+
+os.chdir('/Users/yuliya/Desktop/AIWD/projekt')
+
+file = 'Survey.csv'
+data = pd.read_csv(file, sep = ',')
+print(data.shape)
